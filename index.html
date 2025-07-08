@@ -1,47 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feel the Flow of Hydration | charity: water</title>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Work Sans', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #e0f7ff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #0077b6;
+      margin-bottom: 0.5rem;
+      transition: color 0.3s ease;
+    }
+    header h1:hover {
+      color: #005f8c;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #fffbe6;
+    }
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      transition: transform 0.5s ease;
+    }
+    .hero img:hover {
+      transform: scale(1.02);
+    }
+    .story {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .story h2 {
+      color: #fcbf49;
+      margin-bottom: 1rem;
+    }
+    .story p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .cta {
+      text-align: center;
+      background-color: #0077b6;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    .cta h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #fcbf49;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #ffd166;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .cta h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <header>
+    <h1>Feel the Flow of Hydration</h1>
+    <p>Empowering lives through access to clean and safe water</p>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <section class="hero">
+    <img src="img/main-image.jpg.png" alt="Smiling woman and child with clean water" />
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+  <section class="story">
+    <h2>Be Part of Something Real</h2>
+    <p>
+      When you support our water projects, you're not just donating — you're directly funding clean water access for communities who need it most. Track your impact, see real stories, and even join immersive experiences that connect you to the change you’re creating. This is a global impact you can feel, see, and stand behind.
+    </p>
+  </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <section class="cta">
+    <h2>Make Waves. Give Smiles.</h2>
+    <a href="https://www.charitywater.org/" target="_blank">Donate Now</a>
+  </section>
+
+  <footer>
+    © 2025 charity: water – Designed by Grace Baldwin
+  </footer>
 </body>
 </html>
